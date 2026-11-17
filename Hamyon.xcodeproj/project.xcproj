@@ -10,19 +10,8 @@
       "Base",
     ],
   },
-  "packages": [
-    {
-      "kind": "local",
-      "path": "Packages/Domain",
-    }, {
-      "kind": "local",
-      "path": "Packages/DesignSystem",
-    }, {
-      "kind": "local",
-      "path": "Packages/Core",
-    },
-  ],
   "files": [
+    { "kind": "folder", "path": "Packages" },
     { "kind": "folder", "path": "Hamyon", "target-membership": [ "Hamyon" ] },
     { "kind": "folder", "path": "HamyonTests", "target-membership": [ "HamyonTests" ] },
     { "kind": "folder", "path": "HamyonUITests", "target-membership": [ "HamyonUITests" ] },
@@ -56,7 +45,6 @@
           "product-name": "Domain",
           "build-phase": { "build-phase": "frameworks" },
         }, {
-          "package": "Core",
           "product-name": "KeychainKit",
           "build-phase": { "build-phase": "frameworks" },
         },
