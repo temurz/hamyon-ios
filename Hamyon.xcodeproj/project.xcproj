@@ -14,6 +14,9 @@
     {
       "kind": "local",
       "path": "Packages/Domain",
+    }, {
+      "kind": "local",
+      "path": "Packages/DesignSystem",
     },
   ],
   "files": [
@@ -43,6 +46,9 @@
       ],
       "package-product-members": [
         {
+          "product-name": "DesignSystem",
+          "build-phase": { "build-phase": "frameworks" },
+        }, {
           "product-name": "Domain",
           "build-phase": { "build-phase": "frameworks" },
         },
