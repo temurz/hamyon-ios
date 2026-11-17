@@ -39,6 +39,9 @@
       ],
       "package-product-members": [
         {
+          "product-name": "DataLayer",
+          "build-phase": { "build-phase": "frameworks" },
+        }, {
           "product-name": "DesignSystem",
           "build-phase": { "build-phase": "frameworks" },
         }, {

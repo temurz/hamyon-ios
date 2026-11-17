@@ -8,6 +8,7 @@
 import SwiftUI
 import Domain
 import DesignSystem
+import DataLayer
 
 @main
 struct HamyonApp: App {
