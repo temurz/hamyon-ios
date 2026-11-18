@@ -50,6 +50,9 @@
         }, {
           "product-name": "KeychainKit",
           "build-phase": { "build-phase": "frameworks" },
+        }, {
+          "product-name": "Transactions",
+          "build-phase": { "build-phase": "frameworks" },
         },
       ],
       "build-settings": {
