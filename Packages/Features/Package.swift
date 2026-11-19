@@ -15,7 +15,7 @@ let package = Package(
         .library(
             name: "Transactions",
             targets: ["Transactions"]
-        ),
+        )
     ],
     dependencies: [.package(path: "../Domain"), .package(path: "../DesignSystem")],
     targets: [
@@ -30,6 +30,6 @@ let package = Package(
             name: "TransactionsTests",
             dependencies: ["Transactions"],
             swiftSettings: swiftSettings
-        ),
+        )
     ]
 )

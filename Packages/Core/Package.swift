@@ -53,6 +53,6 @@ let package = Package(
             name: "KeychainKitTests",
             dependencies: ["KeychainKit"],
             swiftSettings: swiftSettings
-        ),
+        )
     ]
 )

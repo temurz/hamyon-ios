@@ -14,7 +14,7 @@ let package = Package(
         .library(
             name: "Domain",
             targets: ["Domain"]
-        ),
+        )
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,6 +27,6 @@ let package = Package(
             name: "DomainTests",
             dependencies: ["Domain"],
             swiftSettings: swiftSettings,
-        ),
+        )
     ]
 )
