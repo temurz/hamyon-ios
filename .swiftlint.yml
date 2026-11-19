@@ -1,0 +1,24 @@
+included:
+    - Hamyon
+    - HamyonTests
+    - HamyonUITests
+    - Packages
+excluded:
+    - Packages/*/.build
+        
+opt_in_rules:
+    - force_unwrapping
+    - implicitly_unwrapped_optional
+    - empty_count
+    - first_where
+    - sorted_first_last
+    - closure_spacing
+    - private_swiftui_state
+
+custom_rules:
+    domain_forbidden_imports:
+        included: ".*/Packages/Domain/Sources/.*"
+        regex: "^\\s*import\\s+(UIKit|SwiftUI|CoreData)"
+        message: "Зависимости имплементации не могут быть импортированы в Domain слой"
+        severity: error
+
